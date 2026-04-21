@@ -1,0 +1,81 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Center whole layout */
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main container */
+.container {
+    width: 350px;
+}
+
+/* Form */
+form {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+/* Input */
+#userinput {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+}
+
+/* Add button */
+input[type="submit"] {
+    padding: 10px 15px;
+    border: none;
+    background: #00c6ff;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
+
+input[type="submit"]:hover {
+    background: #0072ff;
+}
+
+/* List */
+ul {
+    list-style: none;
+}
+
+/* Tasks */
+li {
+    background: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Delete button */
+li button {
+    background: #ff4b5c;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+li button:hover {
+    background: #c0392b;
+}
